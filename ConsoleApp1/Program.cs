@@ -15,6 +15,7 @@ namespace ConsoleApp1
     {
         public void GetRefOut(ref int recipientInt) {
             Console.WriteLine("Value: " + recipientInt);
+            Console.WriteLine("adsfasdf das asdfdasfdasf");
         }
     }
 
