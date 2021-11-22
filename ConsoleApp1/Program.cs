@@ -25,7 +25,7 @@ namespace ConsoleApp1
         {
             MyClass1 mclass = new MyClass1();
             mclass.donatorInt = 10;
-
+            mclass.donatorInt = 100;
         }
     }
 }
