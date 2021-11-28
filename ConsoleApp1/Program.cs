@@ -6,26 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class MyClass1
-    {
-        public int donatorInt;
-    }
-
-    class MyClass2
-    {
-        public void GetRefOut(ref int recipientInt) {
-            Console.WriteLine("Value: " + recipientInt);
-            Console.WriteLine("adsfasdf das asdfdasfdasf");
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
         {
-            MyClass1 mclass = new MyClass1();
-            mclass.donatorInt = 10;
-
+            string str = Console.ReadLine();
+            List<string> substrings = new List<string>(str.Split(' '));
+            foreach(string s in substrings)
+            {
+                Console.WriteLine(s);
+            }
+            
+            System.Threading.Thread.Sleep(2000);
         }
     }
 }
